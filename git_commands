@@ -1,0 +1,7 @@
+git init - to initilaise an empty git file 
+git status - to check the status of a git file
+git add - keeps the changes in staging area
+git commit - commits the changes in the branch you are
+git remote add origin "location of remote repo"
+git push -u origin master
+
