@@ -4,4 +4,15 @@ git add - keeps the changes in staging area
 git commit - commits the changes in the branch you are
 git remote add origin "location of remote repo"
 git push -u origin master
+git log
+git --help
+create branch : git branch <branch name>
+checkout to branch : git checkout <branch name>
+commit changes in branch : git push -u origin <branch name>
+Merge branch into master : check out to master branch
+				git merge <branch name>
+				git push -u origin master
+
+Delete branch: git branch -d <branch name>
+		git push origin --delete <branch name>
 
