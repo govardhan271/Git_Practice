@@ -1,0 +1,3 @@
+git tag -a V1.0 -m "mention the message for 1.0 release"
+git push origin V1.0
+
