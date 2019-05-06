@@ -1,0 +1,5 @@
+git tag -a V1.0 -m "message for the version release"
+git tag -d V1.0
+git push origin --delete V1.0
+git checkout -b <branchname> V1.0
+git tag V1.1 <past commit reference number> 
